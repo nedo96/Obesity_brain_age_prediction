@@ -6,6 +6,6 @@ In particular, resting state fMRI-derived measures (intra- and inter-connectivit
 and White Matter integrity measures have been used to predict age and the obesity status using a 
 machine learning approach.
 
-The first notebook, BrainAge_Obesity_fMRI, processes fMRI text files and calculates correlations of brain activity across cortical parcels. It then extracts inter- and intra-connectivity measures and uses these types of data separately to predict both age and obesity status. 
+The first notebook, BrainAge_Obesity_fMRI, uses resting state fMRI, preprocessed as described in the referenced article. It then extracts inter- and intra-connectivity measures and uses these types of data separately to predict both age and obesity status. 
 
-The second notebook, BrainAge_Obesity_WM_GM, uses WM integrity values from 48 ROIs and GM volumes 
+The second notebook, BrainAge_Obesity_WM_GM, utilizes white matter integrity and gray matter values, preprocessed as described in article. It then performs separate predictions on these data types to estimate both age and obesity status.
